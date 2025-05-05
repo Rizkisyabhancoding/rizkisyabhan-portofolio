@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Rizki</title>
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="logo"><i class="fas fa-laptop-code"></i> Dzyn.id</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#beranda"><i class="fas fa-home"></i> Beranda</a></li>
+      <li><a href="#tentang"><i class="fas fa-user"></i> Tentang</a></li>
+      <li><a href="#keahlian"><i class="fas fa-code"></i> Keahlian</a></li>
+      <li><a href="#sertifikat"><i class="fas fa-certificate"></i> Sertifikat</a></li>
+      <li><a href="#projek"><i class="fas fa-briefcase"></i> Projek</a></li>
+      <li><a href="#kontak"><i class="fas fa-envelope"></i> Kontak</a></li>
+    </ul>    
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Beranda -->
+  <section id="beranda" class="hero-wrapper">
+    <div class="hero-content">
+      <div class="text">
+        <p class="welcome">WELCOME!</p>
+        <h1>I Am <span class="highlight">Web Designer</span></h1>
+        <p class="description">
+          I'm a Web Developer with extensive experience for over 5 years. 
+          My expertise is to create and Websites design, graphic design and many more...
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="img/profil2.png" width="500px" alt="Web Designer">
+      </div>
+    </div>  
+  </section>
+
+
+  
+    <!-- Elemen Paralaks -->
+    <div class="parallax-bg"></div>
+  </section>
+  
+
+  
+  
+<!-- Tentang -->
+  <section id="tentang" class="about-section">
+    <div class="about-content">
+      <h1 class="animate-title">Tentang Saya</h1>
+      <p class="animate-text">
+        Lulusan RPL, saya berpengalaman membangun aplikasi web menggunakan Laravel, JavaScript, dan Tailwind. 
+        Saya percaya bahwa desain yang bagus adalah bagian penting dari pengalaman pengguna.
+      </p>
+    </div>
+  </section>
+  
+<!-- Keahlian -->
+  <section id="keahlian" class="skills-section">
+    <h2>Keahlian Saya</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <img src="icons/html.svg" alt="HTML" />
+        <h3>HTML</h3>
+        <p>Membuat struktur halaman yang semantik dan SEO-friendly.</p>
+      </div>
+      <div class="skill-card">
+        <img src="icons/css.svg" alt="CSS" />
+        <h3>CSS</h3>
+        <p>Desain modern dengan animasi dan efek yang menarik.</p>
+      </div>
+      <div class="skill-card">
+        <img src="icons/js.svg" alt="JavaScript" />
+        <h3>JavaScript</h3>
+        <p>Interaksi dinamis dengan DOM dan API.</p>
+      </div>
+      <div class="skill-card">
+        <img src="icons/php.svg" alt="PHP" />
+        <h3>PHP</h3>
+        <p>Back-end development dan pemrosesan data.</p>
+      </div>
+      <div class="skill-card">
+        <img src="icons/laravel.svg" alt="Laravel" />
+        <h3>Laravel</h3>
+        <p>Membangun aplikasi web yang efisien dan scalable.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Sertifikat -->
+<section id="sertifikat" class="certificates-section">
+  <h2 class="animate-title">Sertifikat Saya</h2>
+  <div class="certificates-container">
+    <div class="certificate-card">
+      <img src="img/gambar1.jpg" alt="Sertifikat Web Development" />
+      <h3>Web Development Expert</h3>
+      <p>Penghargaan atas keahlian dalam pengembangan aplikasi web modern.</p>
+    </div>
+    <div class="certificate-card">
+      <img src="img/gambar1.jpg" alt="Sertifikat UI/UX Design" />
+      <h3>UI/UX Design Specialist</h3>
+      <p>Kompetensi dalam merancang pengalaman pengguna yang intuitif dan menarik.</p>
+    </div>
+    <div class="certificate-card">
+      <img src="img/gambar1.jpg" alt="Sertifikat Laravel" />
+      <h3>Laravel Mastery</h3>
+      <p>Penguasaan framework Laravel untuk membangun aplikasi web yang scalable.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Proyek -->
+<section id="projek" class="projects-section">
+  <h2 class="animate-title">Projek Saya</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <img src="img/gambar1.jpg" alt="Sistem Bengkel" />
+      <div class="project-info">
+        <h3>Sistem Bengkel</h3>
+        <p>Platform manajemen bengkel berbasis web dengan Laravel & Vue.js.</p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="img/gambar1.jpg" alt="Dashboard Penjualan" />
+      <div class="project-info">
+        <h3>Dashboard Penjualan</h3>
+        <p>Analitik dan visualisasi data penjualan menggunakan Chart.js & PHP.</p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="img/gambar1.jpg" alt="Sistem Inventory" />
+      <div class="project-info">
+        <h3>Sistem Inventory</h3>
+        <p>Manajemen stok barang berbasis cloud dengan teknologi Laravel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact  -->
+<section id="kontak" class="contact-section">
+    <div class="contact-container">
+      <div class="contact-form">
+        <h4>GET IN TOUCH</h4>
+        <h1>Contact<span>.</span></h1>
+        <form>
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="What's your good name?" />
+  
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="What's your web address?" />
+  
+          <label for="message">Your Message</label>
+          <textarea id="message" rows="5" placeholder="What you want to say?"></textarea>
+  
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div id="three-container" style="width: 400px; height: 400px;"> 
+        <img src="img/code.png" width="600px" alt=""> 
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rizki Portfolio | <a href="#beranda">Kembali ke atas</a></p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  
+
+
+</body>
+</html>
