@@ -226,12 +226,14 @@ background-image: url("img/shattered.png");
   }
   
   .image img {
-    width: 300px; /* ubah sesuai kebutuhan */
-    object-fit: contain;
+    width: 300px;
+    /*ubahsesuaikebutuhan*/object-fit: contain;
     border-radius: 20px;
     transition: transform 0.3s ease;
     padding-left: 40px;
-  }
+    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.904)); ;
+    -webkit-filter: drop-shadow(0 20px 30px) ;
+}
   
   .image img:hover {
     transform: scale(1.05);
