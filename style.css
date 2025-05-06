@@ -237,7 +237,9 @@ background-image: url("img/shattered.png");
   
   .image img:hover {
     transform: scale(1.05);
-  }
+    filter: drop-shadow(2px 20px 30px rgba(255, 0, 0, 0.904));
+    -webkit-filter: drop-shadow(2px 20px 30px rgba(255, 0, 0, 0.904));
+}
   
 
   .hero-content {
