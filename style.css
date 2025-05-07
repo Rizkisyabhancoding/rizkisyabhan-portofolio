@@ -189,6 +189,7 @@ background-image: url("img/shattered.png");
   }
   .text {
     flex: 1;
+    text-shadow: #ccd6f6;
   }
   
   .welcome {
