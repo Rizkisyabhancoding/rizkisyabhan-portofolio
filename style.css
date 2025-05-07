@@ -231,14 +231,14 @@ background-image: url("img/shattered.png");
     border-radius: 20px;
     transition: transform 0.3s ease;
     padding-left: 40px;
-    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.904)); ;
-    -webkit-filter: drop-shadow(0 20px 30px) ;
+    filter: drop-shadow(2px 20px 30px rgba(105, 105, 105, 0.904));
+    -webkit-filter: drop-shadow(2px 20px 30px rgba(105, 105, 105, 0.904));
 }
   
   .image img:hover {
     transform: scale(1.05);
-    filter: drop-shadow(2px 20px 30px rgba(255, 0, 0, 0.904));
-    -webkit-filter: drop-shadow(2px 20px 30px rgba(255, 0, 0, 0.904));
+    filter: drop-shadow(2px 20px 30px rgba(209, 209, 209, 0.904));
+    -webkit-filter: drop-shadow(2px 20px 30px rgba(105, 105, 105, 0.904));
 }
   
 
